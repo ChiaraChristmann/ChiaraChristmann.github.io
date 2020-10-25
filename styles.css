@@ -5,6 +5,10 @@
     font-family: arial;
 }
 
+body {
+    background-color: #edebe8;
+}
+
 header {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -31,22 +35,29 @@ a {
 }
 
 section {
-    width: 650px;
-    height: 550px;
+    width: 350px;
     float: left;
-    background-color: lightcoral;
+}
+
+.article {
+    height: 120px;
+    margin-top: 15px;
+    margin-bottom: 200px;
 }
 
 aside {
-    width: 310px;
-    height: 550px;
+    width: 610px;
     float: right;
-    background-color: lightgrey;
+}
+
+p { 
+    margin-top: 160px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 footer {
-    height: 50px;
+    height: 40px;
     clear: both;
     background-color: aqua;
 }
-
